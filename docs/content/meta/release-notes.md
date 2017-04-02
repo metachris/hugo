@@ -9,6 +9,37 @@ menu:
 title: Release Notes
 weight: 10
 ---
+# **0.20** ???
+We're happy to announce the second release of Hugo in 2017.
+
+## Highlights
+
+The big new thing in Hugo `0.20` is custom output formats!
+
+TODO ...
+
+gh bogem has contributed TOML as an alternative and much simpler format for language/i18n files gh 3200. A contribution you will appreciate when you start to work on larger translations.
+
+Also, there have been some important updates in the Emacs Org-mode handling: gh chaseadamsio has fixed the newline-handling (gh 3126) and @clockoon  has added basic footnote support.
+
+## Notes
+* *RSS description in the built-in template is changed from full `.Content` to `.Summary`. This is a somewhat breaking change, but is what most people expect from their RSS feeds. If you want full content, please provide your own RSS template.
+* 
+## Other 
+* Document hugo help command gh 2349
+* Fix deadlock in getJSON gh 3211
+gh 1252
+gh 110
+gh 2374
+gh1885
+gh 3102
+gh 3179
+gh 1641
+gh 1989
+* Make sure `hugo` exits with -1 on all ERROR logging. gh 3239
+* Correctly identify pages on the form "my_index_page.md" gh 3234
+* Change RSS description from full .Content to .Summary. 
+* 
 
 # **0.19** February 27th 2017
 
