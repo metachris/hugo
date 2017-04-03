@@ -28,17 +28,16 @@ Also, there have been some important updates in the Emacs Org-mode handling: gh 
 ## Other 
 * Document hugo help command gh 2349
 * Fix deadlock in getJSON gh 3211
-gh 1252
-gh 110
-gh 2374
-gh1885
-gh 3102
-gh 3179
-gh 1641
-gh 1989
+* URL fixes:
+    * Fix pagination URLs with `baseURL` with sub-root and `canonifyUrls=false` gh 1252
+    * Fix pagination URL for resources with "." in name gh 2110 gh 2374 gh 1885
+    * Handle `uglyURLs` ambiguity in `Permalink` gh 3102
+    * Fix `Permalink` for language-roots wrong when `uglyURLs` is `true` gh 3179	
+    * Fix misc case issues for `URLs` gh 1641
+    * Fix taxonomies URLs on `uglyUrls=true` gh 1989
 * Make sure `hugo` exits with -1 on all ERROR logging. gh 3239
 * Correctly identify pages on the form "my_index_page.md" gh 3234
-* Change RSS description from full .Content to .Summary. 
+* Change RSS description from full `.Content` to `.Summary`. 
 * 
 
 # **0.19** February 27th 2017
